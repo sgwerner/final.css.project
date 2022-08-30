@@ -1,0 +1,95 @@
+h1{
+    color: #1778F2;
+    font-weight: 900px;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 4rem;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: whitesmoke;
+}
+
+.login{
+    border: 1px solid silver;
+    border-radius: 10px;
+    text-align: center;
+    margin: auto;
+    width: 30%;
+    height: 600px
+    display: flex;
+    flex-flow: column;
+}
+
+h2{
+    font-size: 20px;
+    font-weight: 100;
+    font-style: normal;
+}
+#email{
+    width: 75%;
+    height: 40px;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom:15px;
+}
+
+#password{
+    width: 75%;
+    height: 40px;
+    margin: auto;
+    margin-bottom: 75px;
+    border-radius: 10px;
+}
+
+#form{
+    margin-top: 25px;
+    font-size: 19px;
+}
+.buttons{
+    display:flex;
+    flex-direction: column;
+    margin-top: 0px;
+}
+
+#lgin{
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    background-color: #1778F2;
+    color: white;
+    width: 85%;
+    margin: auto;
+    border-radius: 10px;
+    border: transparent;
+}
+    
+
+#forgot{
+    padding: 15px;
+    color:#1778F2;
+    border-style: none;
+    background-color: whitesmoke;
+    margin-top: 10px
+}
+
+p{
+    font-size: 15px;
+    color: gray;
+    margin-bottom: 25px;
+}
+
+#create{
+    padding: 15px;
+    width: 50%;
+    justify-content: center;
+    margin: auto;
+    background-color: #46cf5a;
+    color:white;   
+    font-size: large; 
+    border: transparent;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
